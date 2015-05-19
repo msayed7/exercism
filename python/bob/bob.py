@@ -2,14 +2,14 @@
 # Skeleton file for the Python "Bob" exercise.
 #
 def hey(what):
+    what = what.strip()
 
-
-    if what.strip() == "":
+    if what == "":
         return 'Fine. Be that way!'
-    elif what.isupper() == True:
+    elif what.isupper():
         return 'Whoa, chill out!'
     #split sentence into words and get last char of last word 
-    elif what.split()[-1][-1] == "?":
+    elif what.endswith("?"):
         return 'Sure.'
 
     return 'Whatever.'
