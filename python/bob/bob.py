@@ -8,7 +8,6 @@ def hey(what):
         return 'Fine. Be that way!'
     elif what.isupper():
         return 'Whoa, chill out!'
-    #split sentence into words and get last char of last word 
     elif what.endswith("?"):
         return 'Sure.'
 
