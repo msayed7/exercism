@@ -11,14 +11,6 @@ on every year that is evenly divisible by 4
 ```
 
 
-check if itis divisable by 4
-and 
-
-divided by all
-dividec by 4 and 100 but not 400
-
-
-
 For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
 year, but 2000 is.
 
